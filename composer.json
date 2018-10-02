@@ -1,0 +1,16 @@
+{
+    "name": "jefdc/quete_simple_mvc",
+    "authors": [
+        {
+            "name": "Jef De CONTI",
+            "email": "jefdc05@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
