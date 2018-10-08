@@ -16,7 +16,7 @@ class CategoryController
         $categoryManager = new CategoryManager();
         $category = $categoryManager->selectOneCategory($id);
 
-        require __DIR__ . '/../View/showcategory.php';
+        require __DIR__ . '/../View/showCategory.php';
     }
 }
 
