@@ -12,6 +12,12 @@ class ItemController
         $items = $itemManager->selectAllItems();
         require __DIR__ . '/../View/item.php';
     }
+    public function show($id){
+        $itemManager = new ItemManager();
+        $item = $itemManager->selectOneitem($id);
+
+        require __DIR__ . '/../View/showItem.php';
+    }
 }
 
 
